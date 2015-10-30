@@ -1,5 +1,5 @@
 <pre>
-usage: AndroidActions.py [-h] [-s SERIAL] [--touch-table TOUCH_ACTION_TABLE]
+usage: DroidTest.py [-h] [-s SERIAL] [--touch-table TOUCH_ACTION_TABLE]
                          [--swipe-table SWIPE_ACTION_TABLE]
                          [--interval ACTION_INTERVAL] [-t REPEAT_COUNT]
                          [-p PROCEDURE]
@@ -26,6 +26,6 @@ optional arguments:
                         the internal between two actions. default: 2s
   -t REPEAT_COUNT, --repeat REPEAT_COUNT
                         the number of times to repeat assigned actions.
-                        default: 10
+                        default: 1
   -p PROCEDURE          the name of repeat procedure. ex: example.procedure
 </pre>
